@@ -29,11 +29,11 @@ void draw() {
  image(bg1Img,k,0);
  k=z%1280-640;
  
- rect(20,10,w,31);
- fill(255,0,0);
  image(fighterImg,590,240);
  image(treasureImg,tx,ty);
  image(enemyImg,x,ey);
+ rect(20,10,w,31);
+ fill(255,0,0);
  image(hpImg,10,10);
  
 
